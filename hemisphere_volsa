@@ -1,0 +1,32 @@
+<?php 
+// PHP Program to calulate volume and 
+// and surface area of a Hemisphere. 
+  
+// Initializing value of pi & 
+// Function to calulate volume 
+function volume($r) 
+{ 
+    $pi =3.141592653589793; 
+    $volume = (2 * $pi *  
+               pow($r, 3)) /(3); 
+    echo("Volume = " ); 
+    echo($volume); 
+    echo("\n"); 
+} 
+  
+// Function to calulate  
+// surface area 
+function surface_area($r) 
+{ 
+    $pi = 3.141592653589793; 
+    $s_area = 2 * $pi * pow($r, 2); 
+    echo( "Surface Area = "); 
+    echo($s_area) ; 
+} 
+  
+// Driver code 
+$r = 11; 
+volume($r); 
+surface_area($r); 
+ 
+?> 
